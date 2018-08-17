@@ -1,0 +1,11 @@
+<div class="quest-container">
+  <div class="quest-block quest-letter"><span *ngIf="!showFullFraze ">{{letter}}</span>
+    <span *ngIf="showFullFraze">{{activeQuestion}} </span></div>
+  <div class="quest-block quest-clown">
+    <div class="quest-clown-picture"></div>
+  </div>
+  <div class="quest-block quest-question">
+<span>
+  {{activeQuestion}}
+</span></div>
+</div>

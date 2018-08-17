@@ -1,0 +1,29 @@
+.quest-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 600px;
+  margin: auto
+}
+
+.quest-block {
+  margin: 20px;
+}
+.quest-clown-picture {
+  background-image: url('../../../assets/clown.jpg');
+  height: 200px;
+  width: 300px;
+}
+
+.quest-question {
+  color: white;
+}
+
+.quest-letter {
+  height: 100px;
+  color: white;
+  font-size: 50pt;
+}
